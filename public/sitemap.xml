@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://clap.rs/</loc>
+    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/about/about/</loc>
+    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/01_Fast/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/02_Configurable/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/03_Easy/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/04_ArgTypes/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/05_AutoHelp/</loc>
+    <lastmod>2016-09-11T14:08:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/06_YAML/</loc>
+    <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/07_Completions/</loc>
+    <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/08_Errors/</loc>
+    <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/09_Suggestions/</loc>
+    <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/10_Rules/</loc>
+    <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/11_Groups/</loc>
+    <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/12_More/</loc>
+    <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+</urlset>

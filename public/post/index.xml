@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on clap</title>
+    <link>https://clap.rs/post/</link>
+    <description>Recent content in Posts on clap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Sep 2016 14:08:29 +0200</lastBuildDate>
+    <atom:link href="https://clap.rs/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fast</title>
+      <link>https://clap.rs/post/01_Fast/</link>
+      <pubDate>Sun, 11 Sep 2016 14:08:29 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/01_Fast/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; aims to be extremely fast and efficient. Arguments will be parsed without wasting CPU cycles or hogging memory.&lt;/p&gt;
+
+&lt;p&gt;Because let&amp;rsquo;s face it, your application is the star of the show!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Configurable</title>
+      <link>https://clap.rs/post/02_Configurable/</link>
+      <pubDate>Sun, 11 Sep 2016 14:08:29 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/02_Configurable/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; is fully configurable, yet still has common defaults for those applications that simply want be up and running in no time.&lt;/p&gt;
+
+&lt;p&gt;Utilizing &lt;code&gt;clap&lt;/code&gt; gives you ability to have a truly custom experience, an extremely simple solution, and anything in between.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Easy to Use</title>
+      <link>https://clap.rs/post/03_Easy/</link>
+      <pubDate>Sun, 11 Sep 2016 14:08:29 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/03_Easy/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; is extremely easy and intuitive to use.&lt;/p&gt;
+
+&lt;p&gt;After a quick glance at our &lt;a href=&#34;https://docs.rs/clap&#34;&gt;API documentation&lt;/a&gt; you&amp;rsquo;ll be up and running in no time! If you &lt;em&gt;really&lt;/em&gt; want to be up quickly, all you&amp;rsquo;ll need is a completer engine (such as &lt;a href=&#34;https://github.com/phildawes/racer&#34;&gt;racer&lt;/a&gt;), it&amp;rsquo;s that simple!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Standard Argument Types</title>
+      <link>https://clap.rs/post/04_ArgTypes/</link>
+      <pubDate>Sun, 11 Sep 2016 14:08:29 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/04_ArgTypes/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports all standard argument types, flags/switches, options, free/positional arguments, and even subcommands! Here&amp;rsquo;s some extra information about special features &lt;code&gt;clap&lt;/code&gt; supports&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Both short and long versions supported (&lt;code&gt;-f&lt;/code&gt; and &lt;code&gt;--flag&lt;/code&gt; respectively)&lt;/li&gt;
+&lt;li&gt;Combining short versions (&lt;code&gt;-fBgoZ&lt;/code&gt; same as &lt;code&gt;-f -B -g -o -Z&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Multiple occurrences (&lt;code&gt;-vvv&lt;/code&gt; same as &lt;code&gt;-v -v -v&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Multiple values (&lt;code&gt;$ myprog &amp;lt;file&amp;gt;...&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Value parameters (i.e. minimum, maximum, or the exact number of values)&lt;/li&gt;
+&lt;li&gt;All standard short and long versions (&lt;code&gt;-o value&lt;/code&gt;, &lt;code&gt;-ovalue&lt;/code&gt;, &lt;code&gt;-o=value&lt;/code&gt; and &lt;code&gt;--option value&lt;/code&gt; or &lt;code&gt;--option=value&lt;/code&gt; respectively)&lt;/li&gt;
+&lt;li&gt;Fully configurable subcommands with their own sub-arguments, and sub-sub-commands independent of the parent&lt;/li&gt;
+&lt;li&gt;Their own auto-generated Help, Version, and Usage independent of parent&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Auto-Generated Help</title>
+      <link>https://clap.rs/post/05_AutoHelp/</link>
+      <pubDate>Sun, 11 Sep 2016 14:08:45 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/05_AutoHelp/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; generates your help message, and usage strings along with the common &lt;code&gt;--help&lt;/code&gt; and &lt;code&gt;--version&lt;/code&gt; switches from the arguments you provide. This means no more out of sync help messages!&lt;/p&gt;
+
+&lt;p&gt;Full &lt;a href=&#34;https://docs.rs/clap/2.11.3/clap/struct.App.html#method.template&#34;&gt;help message templating&lt;/a&gt; is also supported for the best of both worlds, where you want to stay up to date and provide a custom message.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Supports YAML</title>
+      <link>https://clap.rs/post/06_YAML/</link>
+      <pubDate>Sun, 11 Sep 2016 14:53:21 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/06_YAML/</guid>
+      <description>&lt;p&gt;You can define your valid arguments in a YAML file, keeping your &lt;code&gt;main.rs&lt;/code&gt; clean and tidy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Auto-Generates Completions</title>
+      <link>https://clap.rs/post/07_Completions/</link>
+      <pubDate>Sun, 11 Sep 2016 14:53:21 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/07_Completions/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; can generate &lt;code&gt;bash&lt;/code&gt; and &lt;code&gt;fish&lt;/code&gt; completion files at compile time. These can then be installed alongside your application giving full shell tab-completions of all flags, options, subcommands and even specific argument values!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Friendly Errors</title>
+      <link>https://clap.rs/post/08_Errors/</link>
+      <pubDate>Sun, 11 Sep 2016 14:53:21 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/08_Errors/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; generates friendly, and informative error messages. These messages kindly inform the end user of ways in which to correct the mistake. &lt;code&gt;clap&lt;/code&gt; will even give a context sensitive usage string suggestion to the user!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Suggestions</title>
+      <link>https://clap.rs/post/09_Suggestions/</link>
+      <pubDate>Sun, 11 Sep 2016 14:53:21 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/09_Suggestions/</guid>
+      <description>&lt;p&gt;If the end user has a typo, &lt;code&gt;clap&lt;/code&gt; will gently suggest a correction based on the current context.&lt;/p&gt;
+
+&lt;p&gt;If the user enters &lt;code&gt;--confg&lt;/code&gt;, but &lt;code&gt;--config&lt;/code&gt; is most likely what they meant to type, &lt;code&gt;clap&lt;/code&gt; will inform them and suggest the correct argument. This extends to subcommands and even specific argument values!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Argument Relationships</title>
+      <link>https://clap.rs/post/10_Rules/</link>
+      <pubDate>Sun, 11 Sep 2016 14:53:21 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/10_Rules/</guid>
+      <description>&lt;p&gt;One can define argument relationships easily, and intuitively. For instance, if one argument requires another to be used, this can be specified. If another argument cannot be used any particular other, that can be defined as well.&lt;/p&gt;
+
+&lt;p&gt;These relationships can span from simply conflicts and requirements, to POSIX compatible overrides, to multiple grouped and nested layers of complexity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Argument Groups</title>
+      <link>https://clap.rs/post/11_Groups/</link>
+      <pubDate>Sun, 11 Sep 2016 14:53:21 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/11_Groups/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports grouping arguments into logical groups, this can vastly assist with things such as complex relationships&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Much, Much More!</title>
+      <link>https://clap.rs/post/12_More/</link>
+      <pubDate>Sun, 11 Sep 2016 14:53:21 +0200</pubDate>
+      
+      <guid>https://clap.rs/post/12_More/</guid>
+      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports much, much more than these short few bullet points. Delve into the many resources, or contact us to find out more!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
