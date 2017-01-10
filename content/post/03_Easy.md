@@ -8,12 +8,14 @@ weight = 3
 
 `clap` is extremely easy and intuitive to use.
 
-After a quick glance at our [API documentation](https://docs.rs/clap) you'll be up and running in no
-time! `clap` is intuitive enough that all you may need is a completer engine (such as
-[racer](https://github.com/phildawes/racer)), it's really that simple!
+In fact, it's so intuitive that all you may need is a completer engine (such as
+[racer](https://github.com/phildawes/racer)), it's really that simple! However, after a quick glance
+at our [API documentation](https://docs.rs/clap) you'll be up and running, even using advanced
+features in no time!
 
-Here's a quick example of an application that provides a single option which requires a value, and
-*must* be used at runtime.
+Here's a quick example of an application that provides a single option (`--config <file>`) which
+requires a value, and *must* be used at runtime. (Note this simple example even handles automatic
+help generation, context sensitive errors, and more!)
 
 ```
 App::new("myapp")
