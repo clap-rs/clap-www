@@ -1,6 +1,7 @@
 baseurl = "https://clap.rs/"
 languageCode = "en-us"
 title = "clap"
+theme = "landing-page-hugo"
 
 [params]
 	author = "Kevin K."
