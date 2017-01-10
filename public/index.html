@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="generator" content="Hugo 0.16" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <base href="https://clap.rs/">
+    <title>clap</title>
+
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/css/landing-page.css" rel="stylesheet">
+
+    
+    
+        <link rel="stylesheet" href="https://clap.rs/css/local.css">
+    
+
+    
+    <link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    
+    <link rel="shortcut icon" href="https://clap.rs/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://clap.rs/img/apple-touch-icon.png" />
+
+    
+    
+    
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="page-scroll navbar-brand" href="#intro">clap</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#features">Features</a>
+                </li>
+                
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+    
+</nav>
+
+<section id="intro">
+	
+	<div class="intro-header">
+
+	    <div class="container">
+
+		<div class="row">
+		    <div class="col-lg-12">
+			<div class="intro-message">
+			    <h1>clap</h1>
+			    <h3>Fast. Configurable. Argument Parsing for Rust</h3>
+			    <hr class="intro-divider">
+			    
+			    <ul class="list-inline intro-social-buttons">
+				        
+	<li>
+		<a href="https://docs.rs/clap" class="btn btn-default btn-lg">
+			<i class="fa fa-bookmark-o fa-fw"></i>
+			<span class="network-name">API Docs</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://www.youtube.com/playlist?list=PLza5oFLQGTl2Z5T8g1pRkIynR3E0_pc7U" class="btn btn-default btn-lg">
+			<i class="fa fa-youtube fa-fw"></i>
+			<span class="network-name">Video Tutorials</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://blog.clap.rs" class="btn btn-default btn-lg">
+			<i class="fa fa-edit fa-fw"></i>
+			<span class="network-name">Blog</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://crates.io/crates/clap" class="btn btn-default btn-lg">
+			<i class="fa fa-cube fa-fw"></i>
+			<span class="network-name">crates.io</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://github.com/kbknapp/clap-rs" class="btn btn-default btn-lg">
+			<i class="fa fa-github fa-fw"></i>
+			<span class="network-name">Github</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://twitter.com/thekbknapp" class="btn btn-default btn-lg">
+			<i class="fa fa-twitter fa-fw"></i>
+			<span class="network-name">Twitter</span>
+		</a>
+	</li>
+
+
+			    </ul>
+			    
+			</div>
+		    </div>
+		</div>
+
+	    </div>
+	    
+
+	</div>
+	
+</section>
+
+
+<section id="about" class="container content-section text-center">
+
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<br/>
+			<br/>
+			<h2>About</h2>
+			<br/>
+			<p><code>clap</code> or Command Line Argument Parser</p>
+
+<p>Is a simple-to-use, efficient, and fully-configurable library for parsing command line arguments.</p>
+
+<p><code>clap</code> supports advanced features like argument relationships, subcommands, and much, much more.</p>
+
+			<br/>
+		</div>
+	</div>
+
+</section>
+
+<section id="features">
+
+
+ 
+
+    
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-push-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Fast</h2>
+                    <p><code>clap</code> aims to be extremely fast and efficient. Arguments will be parsed without wasting CPU cycles or hogging memory.</p>
+
+<p>Because let&rsquo;s face it, your application is the star of the show!</p>
+
+                </div>
+                
+                <div class="col-lg-4 col-sm-pull-6 col-sm-6">
+                  <img class="img-responsive vcenter" src="img/rocket_sm.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Configurable</h2>
+                    <p><code>clap</code> is fully configurable, yet still has common defaults for those applications that simply want be up and running in no time.</p>
+
+<p>Utilizing <code>clap</code> gives you ability to have a truly custom experience, an extremely simple solution, and anything in between.</p>
+
+                </div>
+                
+                <div class="col-lg-3 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive vcenter" src="img/configure_sm.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+    
+
+    
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-push-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Easy to Use</h2>
+                    <p><code>clap</code> is extremely easy and intuitive to use.</p>
+
+<p>After a quick glance at our <a href="https://docs.rs/clap">API documentation</a> you&rsquo;ll be up and running in no time! If you <em>really</em> want to be up quickly, all you&rsquo;ll need is a completer engine (such as <a href="https://github.com/phildawes/racer">racer</a>), it&rsquo;s that simple!</p>
+
+                </div>
+                
+                <div class="col-lg-4 col-sm-pull-6 col-sm-6">
+                  <img class="img-responsive vcenter" src="img/easy_sm.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Standard Argument Types</h2>
+                    <p><code>clap</code> supports all standard argument types, flags/switches, options, free/positional arguments, and even subcommands! Here&rsquo;s some extra information about special features <code>clap</code> supports</p>
+
+<ul>
+<li>Both short and long versions supported (<code>-f</code> and <code>--flag</code> respectively)</li>
+<li>Combining short versions (<code>-fBgoZ</code> same as <code>-f -B -g -o -Z</code>)</li>
+<li>Multiple occurrences (<code>-vvv</code> same as <code>-v -v -v</code>)</li>
+<li>Multiple values (<code>$ myprog &lt;file&gt;...</code>)</li>
+<li>Value parameters (i.e. minimum, maximum, or the exact number of values)</li>
+<li>All standard short and long versions (<code>-o value</code>, <code>-ovalue</code>, <code>-o=value</code> and <code>--option value</code> or <code>--option=value</code> respectively)</li>
+<li>Fully configurable subcommands with their own sub-arguments, and sub-sub-commands independent of the parent</li>
+<li>Their own auto-generated Help, Version, and Usage independent of parent</li>
+</ul>
+
+                </div>
+                
+                <div class="col-lg-3 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive vcenter" src="img/term-0.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+    
+
+    
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-push-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Auto-Generated Help</h2>
+                    <p><code>clap</code> generates your help message, and usage strings along with the common <code>--help</code> and <code>--version</code> switches from the arguments you provide. This means no more out of sync help messages!</p>
+
+<p>Full <a href="https://docs.rs/clap/2.11.3/clap/struct.App.html#method.template">help message templating</a> is also supported for the best of both worlds, where you want to stay up to date and provide a custom message.</p>
+
+                </div>
+                
+                <div class="col-lg-4 col-sm-pull-6 col-sm-6">
+                  <img class="img-responsive vcenter" src="img/help.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Supports YAML</h2>
+                    <p>You can define your valid arguments in a YAML file, keeping your <code>main.rs</code> clean and tidy.</p>
+
+                </div>
+                
+                <div class="col-lg-3 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive vcenter" src="img/yaml.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+    
+
+    
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-push-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Auto-Generates Completions</h2>
+                    <p><code>clap</code> can generate <code>bash</code> and <code>fish</code> completion files at compile time. These can then be installed alongside your application giving full shell tab-completions of all flags, options, subcommands and even specific argument values!</p>
+
+                </div>
+                
+                <div class="col-lg-4 col-sm-pull-6 col-sm-6">
+                  <img class="img-responsive vcenter" src="img/tab.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Friendly Errors</h2>
+                    <p><code>clap</code> generates friendly, and informative error messages. These messages kindly inform the end user of ways in which to correct the mistake. <code>clap</code> will even give a context sensitive usage string suggestion to the user!</p>
+
+                </div>
+                
+                <div class="col-lg-3 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive vcenter" src="img/error.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+    
+
+    
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-push-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Suggestions</h2>
+                    <p>If the end user has a typo, <code>clap</code> will gently suggest a correction based on the current context.</p>
+
+<p>If the user enters <code>--confg</code>, but <code>--config</code> is most likely what they meant to type, <code>clap</code> will inform them and suggest the correct argument. This extends to subcommands and even specific argument values!</p>
+
+                </div>
+                
+                <div class="col-lg-4 col-sm-pull-6 col-sm-6">
+                  <img class="img-responsive vcenter" src="img/suggestion.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Argument Relationships</h2>
+                    <p>One can define argument relationships easily, and intuitively. For instance, if one argument requires another to be used, this can be specified. If another argument cannot be used any particular other, that can be defined as well.</p>
+
+<p>These relationships can span from simply conflicts and requirements, to POSIX compatible overrides, to multiple grouped and nested layers of complexity.</p>
+
+                </div>
+                
+                <div class="col-lg-3 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive vcenter" src="img/relationships.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+    
+
+    
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-push-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Argument Groups</h2>
+                    <p><code>clap</code> supports grouping arguments into logical groups, this can vastly assist with things such as complex relationships</p>
+
+                </div>
+                
+                <div class="col-lg-4 col-sm-pull-6 col-sm-6">
+                  <img class="img-responsive vcenter" src="img/groups.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Much, Much More!</h2>
+                    <p><code>clap</code> supports much, much more than these short few bullet points. Delve into the many resources, or contact us to find out more!</p>
+
+                </div>
+                
+                <div class="col-lg-3 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive vcenter" src="img/more.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+    
+
+
+</section>
+
+
+<section id="contact">
+<div class="contact">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-6">
+				<h2>Stay In Touch:</h2>
+			</div>
+
+			<div class="col-lg-6">
+				<ul class="list-inline contact-social-buttons">
+					
+	<li>
+		<a href="https://docs.rs/clap" class="btn btn-default btn-lg">
+			<i class="fa fa-bookmark-o fa-fw"></i>
+			<span class="network-name">API Docs</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://www.youtube.com/playlist?list=PLza5oFLQGTl2Z5T8g1pRkIynR3E0_pc7U" class="btn btn-default btn-lg">
+			<i class="fa fa-youtube fa-fw"></i>
+			<span class="network-name">Video Tutorials</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://blog.clap.rs" class="btn btn-default btn-lg">
+			<i class="fa fa-edit fa-fw"></i>
+			<span class="network-name">Blog</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://crates.io/crates/clap" class="btn btn-default btn-lg">
+			<i class="fa fa-cube fa-fw"></i>
+			<span class="network-name">crates.io</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://github.com/kbknapp/clap-rs" class="btn btn-default btn-lg">
+			<i class="fa fa-github fa-fw"></i>
+			<span class="network-name">Github</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://twitter.com/thekbknapp" class="btn btn-default btn-lg">
+			<i class="fa fa-twitter fa-fw"></i>
+			<span class="network-name">Twitter</span>
+		</a>
+	</li>
+
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+</section>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="list-inline">
+                    <li>
+                        <a class="page-scroll" href="#intro">Home</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    
+                    
+                </ul>
+                <p class="copyright text-muted small">Copyright &copy; clap All Rights Reserved</p>
+            </div>
+            <div class="col-md-4">
+		Built with <a href="http://gohugo.io">Hugo</a> and the
+		<a href="https://github.com/crakjie/landing-page-hugo">landing-page-hugo</a>
+		theme.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/jquery-1.11.0.js"></script>
+
+
+<script src="/js/jquery.easing.min.js"></script>
+
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="js/landing-page.js"></script>
+
+
+
+</body>
+</html>
+
