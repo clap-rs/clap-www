@@ -6,6 +6,10 @@ weight = 5
 img = "help.png"
 +++
 
-`clap` generates your help message, and usage strings along with the common `--help` and `--version` switches from the arguments you provide. This means no more out of sync help messages!
+`clap` generates your help message and usage strings for you automatically from the list of valid
+arguments you provide, this includes the common `--help` and `--version` switches. This means no
+more out of sync help messages!
 
-Full [help message templating](https://docs.rs/clap/2.11.3/clap/struct.App.html#method.template) is also supported for the best of both worlds, where you want to stay up to date and provide a custom message.
+Full [help message templating](https://docs.rs/clap/2.11.3/clap/struct.App.html#method.template) is
+also supported for the best of both worlds, where you want to stay up to date and provide a custom
+message.

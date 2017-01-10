@@ -6,4 +6,5 @@ img = "groups.png"
 weight = 11
 +++
 
-`clap` supports grouping arguments into logical groups, this can vastly assist with things such as complex relationships
+`clap` supports grouping arguments into logical groups, this can vastly assist with things such as
+complex relationships

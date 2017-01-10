@@ -6,4 +6,6 @@ img = "tab.png"
 weight = 7
 +++
 
-`clap` can generate `bash` and `fish` completion files at compile time. These can then be installed alongside your application giving full shell tab-completions of all flags, options, subcommands and even specific argument values!
+`clap` can generate `bash`, `fish`, `zsh` and even `PowerShell` completion files at compile time!
+These can then be installed alongside your application giving full shell tab-completions of all
+flags, options, subcommands and even specific argument values!

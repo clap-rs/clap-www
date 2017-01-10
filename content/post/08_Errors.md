@@ -6,4 +6,6 @@ img = "error.png"
 weight = 8
 +++
 
-`clap` generates friendly, and informative error messages. These messages kindly inform the end user of ways in which to correct the mistake. `clap` will even give a context sensitive usage string suggestion to the user!
+`clap` generates friendly, and informative error messages. These messages kindly inform the end user
+of ways in which to correct the error. `clap` will even give a context sensitive usage string
+suggestion to the user!

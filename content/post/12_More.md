@@ -6,4 +6,5 @@ img = "more.png"
 weight = 12
 +++
 
-`clap` supports much, much more than these short few bullet points. Delve into the many resources, or contact us to find out more!
+`clap` supports much, much more than these short few bullet points. Delve into the many resources,
+or contact us to find out more!

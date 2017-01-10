@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on clap</title>
-    <link>https://clap.rs/about/</link>
+    <link>https://clap.rs/about/index.xml</link>
     <description>Recent content in Abouts on clap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;Is a simple-to-use, efficient, and fully-configurable library for parsing command line arguments.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports advanced features like argument relationships, subcommands, and much, much more.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports advanced features like argument argument relationships, subcommands, and much, much more.&lt;/p&gt;
 </description>
     </item>
     

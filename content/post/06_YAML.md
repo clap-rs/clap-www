@@ -6,4 +6,4 @@ img = "yaml.png"
 weight = 6
 +++
 
-You can define your valid arguments in a YAML file, keeping your `main.rs` clean and tidy.
+You can define your list of valid arguments in a YAML file, keeping your `main.rs` clean and tidy.

@@ -13,6 +13,8 @@ weight = 4
  * Multiple occurrences (`-vvv` same as `-v -v -v`)
  * Multiple values (`$ myprog <file>...`)
  * Value parameters (i.e. minimum, maximum, or the exact number of values)
- * All standard short and long versions (`-o value`, `-ovalue`, `-o=value` and `--option value` or `--option=value` respectively)
+ * Default and specific value sets
+ * All standard short and long versions of options (`-o value`, `-ovalue`, `-o=value` and `--option value` or `--option=value` respectively)
+ * Argument relationships, such as requires, conflicts with, overrides, etc. This allows you to be *absolutely certain* the invocation is correct!
  * Fully configurable subcommands with their own sub-arguments, and sub-sub-commands independent of the parent
  * Their own auto-generated Help, Version, and Usage independent of parent

@@ -15,10 +15,10 @@ title = "clap"
 	title = "Video Tutorials"
 	icon = "youtube"
 	url = "https://www.youtube.com/playlist?list=PLza5oFLQGTl2Z5T8g1pRkIynR3E0_pc7U"
-#[[params.social]]
-#	title = "clap Book"
-#	icon = "book"
-#	url = "https://book.clap-rs.com"
+[[params.social]]
+	title = "clap Book"
+	icon = "book"
+	url = "https://book.clap-rs.com"
 [[params.social]]
 	title = "Blog"
 	icon = "edit"

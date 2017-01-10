@@ -6,6 +6,11 @@ img = "relationships.png"
 weight = 10
 +++
 
-One can define argument relationships easily, and intuitively. For instance, if one argument requires another to be used, this can be specified. If another argument cannot be used any particular other, that can be defined as well.
+One can define argument relationships easily, and intuitively. This includes everything from
+requirements, conflicts, and overrides. For instance, if one argument requires another to be used,
+this can be specified. If another argument cannot be used any particular other, that can be defined
+as well.
 
-These relationships can span from simply conflicts and requirements, to POSIX compatible overrides, to multiple grouped and nested layers of complexity.
+These relationships can span from simply conflicts and requirements, to POSIX compatible overrides,
+to multiple grouped and nested layers of complexity. Each of these settings can even be applied
+conditionally!

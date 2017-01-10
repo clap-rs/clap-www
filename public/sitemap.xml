@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://clap.rs/</loc>
-    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://clap.rs/about/about/</loc>
-    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://clap.rs/post/01_Fast/</loc>
     <lastmod>2016-09-11T14:08:29+02:00</lastmod>
   </url>
@@ -69,6 +59,29 @@
   <url>
     <loc>https://clap.rs/post/12_More/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/about/about/</loc>
+    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/about/</loc>
+    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/post/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
