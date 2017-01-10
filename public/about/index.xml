@@ -19,7 +19,7 @@
 
 &lt;p&gt;Is a simple-to-use, efficient, and fully-configurable library for parsing command line arguments.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports advanced features like argument argument relationships, subcommands, and much, much more.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports advanced features like argument relationships, subcommands, and much, much more.&lt;/p&gt;
 </description>
     </item>
     

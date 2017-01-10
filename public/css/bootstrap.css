@@ -934,10 +934,11 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+  display: inline-block;
   width: 100% \9;
   max-width: 100%;
   height: auto;
+  vertical-align: middle,
 }
 .img-rounded {
   border-radius: 6px;

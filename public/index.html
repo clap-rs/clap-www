@@ -97,7 +97,7 @@
 	</li>
 
 	<li>
-		<a href="https://book.clap-rs.com" class="btn btn-default btn-lg">
+		<a href="https://book.clap.rs" class="btn btn-default btn-lg">
 			<i class="fa fa-book fa-fw"></i>
 			<span class="network-name">clap Book</span>
 		</a>
@@ -158,9 +158,37 @@
 
 <p>Is a simple-to-use, efficient, and fully-configurable library for parsing command line arguments.</p>
 
-<p><code>clap</code> supports advanced features like argument argument relationships, subcommands, and much, much more.</p>
+<p><code>clap</code> supports advanced features like argument relationships, subcommands, and much, much more.</p>
 
 			<br/>
+			<h3>A Quick Taste</h3>
+		<div style="text-align:left;">
+The following Rust code is all it takes to get started:<br/>
+<br/>
+		<pre><code>    extern crate clap;
+
+    fn main() {
+        App::new("myapp")
+            .version("1.0")
+            .about("Does great things!")
+            .author("Kevin K.")
+            .get_matches();
+    }</code></pre>
+	<br/>
+	If the user runs <code>$ myapp --help</code> the following would be printed<br/><br/>
+
+<pre><code>myapp 1.0
+Kevin K.
+Does great things!
+
+USAGE:
+    myapp [FLAGS]
+
+FLAGS:
+    -h, --help       Prints this message
+    -V, --version    Prints version information
+</code></pre>
+		</div>
 		</div>
 	</div>
 
@@ -612,7 +640,7 @@ or contact us to find out more!</p>
 	</li>
 
 	<li>
-		<a href="https://book.clap-rs.com" class="btn btn-default btn-lg">
+		<a href="https://book.clap.rs" class="btn btn-default btn-lg">
 			<i class="fa fa-book fa-fw"></i>
 			<span class="network-name">clap Book</span>
 		</a>
