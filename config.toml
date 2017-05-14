@@ -19,7 +19,7 @@ theme = "landing-page-hugo"
 [[params.social]]
 	title = "clap Book"
 	icon = "book"
-	url = "https://book.clap.rs"
+	url = "https://clap.rs/book"
 [[params.social]]
 	title = "Blog"
 	icon = "edit"
