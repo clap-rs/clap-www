@@ -39,4 +39,4 @@ theme = "landing-page-hugo"
 [[params.social]]
 	title = "Become a Sponsor!"
 	icon = "heart"
-	url = "https://www.patreon.com/kbknapp"
+	url = "https://www.clap.rs/sponsor/"

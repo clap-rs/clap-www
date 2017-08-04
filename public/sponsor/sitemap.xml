@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.clap.rs/post/01_premium/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.clap.rs/post/02_current/</loc>
+    <lastmod>2017-08-04T14:08:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.clap.rs/about/about/</loc>
+    <lastmod>2017-08-04T14:08:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.clap.rs/about/</loc>
+    <lastmod>2017-08-04T14:08:35-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.clap.rs/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.clap.rs/post/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.clap.rs/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.clap.rs/</loc>
+    <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
