@@ -1,63 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://clap.rs/post/01_Fast/</loc>
+    <loc>https://clap.rs/post/01_fast/</loc>
     <lastmod>2016-09-11T14:08:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/02_Configurable/</loc>
+    <loc>https://clap.rs/post/02_configurable/</loc>
     <lastmod>2016-09-11T14:08:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/03_Easy/</loc>
+    <loc>https://clap.rs/post/03_easy/</loc>
     <lastmod>2016-09-11T14:08:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/04_ArgTypes/</loc>
+    <loc>https://clap.rs/post/04_argtypes/</loc>
     <lastmod>2016-09-11T14:08:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/05_AutoHelp/</loc>
+    <loc>https://clap.rs/post/05_autohelp/</loc>
     <lastmod>2016-09-11T14:08:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/06_YAML/</loc>
+    <loc>https://clap.rs/post/06_yaml/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/07_Completions/</loc>
+    <loc>https://clap.rs/post/07_completions/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/08_Errors/</loc>
+    <loc>https://clap.rs/post/08_errors/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/09_Suggestions/</loc>
+    <loc>https://clap.rs/post/09_suggestions/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/10_Rules/</loc>
+    <loc>https://clap.rs/post/10_rules/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/11_Groups/</loc>
+    <loc>https://clap.rs/post/11_groups/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clap.rs/post/12_More/</loc>
+    <loc>https://clap.rs/post/12_more/</loc>
     <lastmod>2016-09-11T14:53:21+02:00</lastmod>
   </url>
   
@@ -73,8 +74,18 @@
   </url>
   
   <url>
+    <loc>https://clap.rs/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://clap.rs/post/</loc>
     <lastmod>2016-09-11T14:08:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://clap.rs/tags/</loc>
     <priority>0</priority>
   </url>
   

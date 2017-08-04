@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on clap</title>
-    <link>https://clap.rs/about/index.xml</link>
+    <link>https://clap.rs/about/</link>
     <description>Recent content in Abouts on clap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jul 2015 14:08:35 +0200</lastBuildDate>
-    <atom:link href="https://clap.rs/about/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://clap.rs/about/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>About</title>
@@ -15,12 +17,9 @@
       <pubDate>Sat, 18 Jul 2015 14:08:35 +0200</pubDate>
       
       <guid>https://clap.rs/about/about/</guid>
-      <description>&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; or Command Line Argument Parser&lt;/p&gt;
-
-&lt;p&gt;Is a simple-to-use, efficient, and fully-configurable library for parsing command line arguments.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;clap&lt;/code&gt; supports advanced features like argument relationships, subcommands, and much, much more.&lt;/p&gt;
-</description>
+      <description>clap or Command Line Argument Parser
+Is a simple-to-use, efficient, and fully-configurable library for parsing command line arguments.
+clap supports advanced features like argument relationships, subcommands, and much, much more.</description>
     </item>
     
   </channel>

@@ -36,3 +36,7 @@ theme = "landing-page-hugo"
 	title = "Twitter"
 	icon = "twitter"
 	url = "https://twitter.com/thekbknapp"
+[[params.social]]
+	title = "Become a Sponsor!"
+	icon = "heart"
+	url = "https://www.patreon.com/kbknapp"
