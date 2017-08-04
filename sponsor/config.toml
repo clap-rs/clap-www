@@ -1,0 +1,42 @@
+baseurl = "https://www.clap.rs/"
+languageCode = "en-us"
+title = "clap - Sponsorship"
+theme = "landing-page-hugo"
+
+[params]
+	author = "Kevin K."
+	description = ""
+	custom_css = ["css/local.css"]
+
+[[params.social]]
+	title = "API Docs"
+	icon = "bookmark-o"
+	url = "https://docs.rs/clap"
+[[params.social]]
+	title = "Video Tutorials"
+	icon = "youtube"
+	url = "https://www.youtube.com/playlist?list=PLza5oFLQGTl2Z5T8g1pRkIynR3E0_pc7U"
+[[params.social]]
+	title = "clap Book"
+	icon = "book"
+	url = "https://clap.rs/book"
+[[params.social]]
+	title = "Blog"
+	icon = "edit"
+	url = "https://blog.clap.rs"
+[[params.social]]
+	title = "crates.io"
+	icon = "cube"
+	url = "https://crates.io/crates/clap"
+[[params.social]]
+	title = "Github"
+	icon = "github"
+	url = "https://github.com/kbknapp/clap-rs"
+[[params.social]]
+	title = "Twitter"
+	icon = "twitter"
+	url = "https://twitter.com/thekbknapp"
+[[params.social]]
+	title = "Back to clap.rs"
+	icon = "arrow-left"
+	url = "https://www.clap.rs"

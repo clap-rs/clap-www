@@ -1,0 +1,44 @@
+<!-- About Section -->
+<section id="about" class="container content-section text-center">
+{{ range where .Data.Pages "Section" "about" | first 1 }}
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<br/>
+			<br/>
+			<h2>{{ .Title }}</h2>
+			<br/>
+			{{ .Content }}
+			<br/>
+			<h3>A Quick Taste</h3>
+		<div style="text-align:left;">
+The following Rust code is all it takes to get started:<br/>
+<br/>
+		<pre><code>    extern crate clap;
+    use clap::App;
+
+    fn main() {
+        App::new("myapp")
+            .version("1.0")
+            .about("Does great things!")
+            .author("Kevin K.")
+            .get_matches();
+    }</code></pre>
+	<br/>
+	If the user runs <code>$ myapp --help</code> the following would be printed<br/><br/>
+
+<pre><code>myapp 1.0
+Kevin K.
+Does great things!
+
+USAGE:
+    myapp [FLAGS]
+
+FLAGS:
+    -h, --help       Prints this message
+    -V, --version    Prints version information
+</code></pre>
+		</div>
+		</div>
+	</div>
+{{ end }}
+</section>
