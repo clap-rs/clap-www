@@ -7,7 +7,7 @@ title = "Become a Sponsor!"
 
 Sponsors are the life blood of this project. They provide the means to cover fixed costs such as domains, server expenses, and recording or development equipment.
 
-All contributes are greatly appreciated in a way words can not accurately reflect!
+All contributions are greatly appreciated in a way words can not accurately reflect!
 
 #### Recurring Contributions
 
