@@ -7,9 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Aug 2017 14:08:35 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.clap.rs/about/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://www.clap.rs/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Become a Sponsor!</title>
@@ -17,9 +15,25 @@
       <pubDate>Fri, 04 Aug 2017 14:08:35 -0500</pubDate>
       
       <guid>https://www.clap.rs/about/about/</guid>
-      <description> Sponsors are the life blood of this project. They provide the means to cover fixed costs such as domains, server expenses, and recording or development equipment.
-All contributions are greatly appreciated in a way words can not accurately reflect!
-Recurring Contributions  Patreon  One-Off Contributions  PayPal.me/kbknapp Via BitCoin to address: 1FFfa6Uspxk5w8N17c2S7fomn5b3CaZiNi  </description>
+      <description>
+
+&lt;p&gt;Sponsors are the life blood of this project. They provide the means to cover fixed costs such as domains, server expenses, and recording or development equipment.&lt;/p&gt;
+
+&lt;p&gt;All contributions are greatly appreciated in a way words can not accurately reflect!&lt;/p&gt;
+
+&lt;h4 id=&#34;recurring-contributions:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Recurring Contributions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/kbknapp&#34;&gt;Patreon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;one-off-contributions:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;One-Off Contributions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.paypal.me/kbknapp&#34;&gt;PayPal.me/kbknapp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Via BitCoin to address: 1FFfa6Uspxk5w8N17c2S7fomn5b3CaZiNi&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
