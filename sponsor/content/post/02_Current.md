@@ -6,4 +6,4 @@ img = ""
 weight = 2
 +++
 
-* [Noelia Seva-Gonzalez](http://vsgrealestategroup.com.realproserver.com/About)
+{{< importPartial "sponsors.html" >}}
