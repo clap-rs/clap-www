@@ -1,4 +1,4 @@
-baseurl = "https://clap.rs/"
+baseurl = "https://www.clap.rs/"
 languageCode = "en-us"
 title = "clap"
 theme = "landing-page-hugo"
